@@ -1,0 +1,38 @@
+.knopka_menu{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu{
+    background: linear-gradient(to left,blue,white 50%);
+    padding: 10px;
+}
+body{
+    margin: 0;
+    background: radial-gradient(closest-side,blue ,black);
+    height: 100vh;
+    color: aliceblue;
+    font-family: cursive;
+}
+.knopka_menu:hover{
+    color: red;
+}
+
+input{
+    background: red;
+    border: 0;
+
+}
+
+.lox{
+    background: linear-gradient(to right, purple,red);
+    padding: 10px;
+    color: aliceblue;
+}
+
+input:valid{
+    background-color: green;
+}
+.lox:hover{
+    background: linear-gradient(to left, purple,red);
+
+}
